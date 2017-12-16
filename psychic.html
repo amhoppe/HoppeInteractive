@@ -12,7 +12,9 @@
 </head>
 
 <body>
-	<header id="header" class="">
+  <div id="Nav" class="row">
+	<header id="<header" class="">
+    
 		<nav class="navbar navbar-toggleable-md navbar-light bg-faded pull-left">
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -55,24 +57,36 @@
   </div>
 </nav>	
 	</header><!-- /header -->	
+</div>
 
+<div class="row" text align="center">
 <h1> Under Construction. Please Come Back Saturday </h1>
-	<div id="main-container" class="container">
+</div>
+	<div id="main-container" class="container" text align="center">
     <section class="main-section">
       <h1>The Mighty Zoltan Will See You Now</h1>
 		
 		<img class="img-responsive" src="assets/images/zoltar.jpg" alt="The Mighty Zoltar">
 
 		<div id="Guess" class="container">
+      <p text align="center"> The Mighty Zoltar Has chosen a Letter from the Alphabet.  Can you guess what it is? </p> <br>
+      <form action="/action_page.php">
+   <input type="text" name="letter">
+  <input type="submit" value="Submit">
+</form>
 
+		
+
+		<div id="Wins" class="counter">
+      <p text align="center"> Wins </p> 
+                <br>
+      <p id="wcount" text align="center">  </p>
 		</div>
 
-		<div id="Wins">
-
-		</div>
-
-		<div id="Losses">
-
+		<div id="Losses" class="counter">
+      <p text align="center>"> Losses </p>
+                <br>
+      <p id="lcount" text align="center"> </p>
 		</div>
 
 		<div id="GuessedLetters">
@@ -81,6 +95,7 @@
 
     </section>
 
+</div>
 </div>
 
 
